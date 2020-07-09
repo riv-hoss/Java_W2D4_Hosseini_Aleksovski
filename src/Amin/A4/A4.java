@@ -10,7 +10,6 @@ public class A4 {
         ArrayList<Integer> newArrayList = new ArrayList<>(intArrayList);
         Collections.sort(newArrayList);
         Integer minVal = newArrayList.get(0);
-
         intArrayList.remove(minVal); // remove min value from original ArrayList
         intArrayList.add(0, minVal); // add min value at the first position
 
