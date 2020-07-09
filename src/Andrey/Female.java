@@ -2,7 +2,7 @@ package Andrey;
 
 public class Female extends Human {
 
-    @Override
+    @java.lang.Override
     public String getChromosomes() {
         return "XX";
     }
